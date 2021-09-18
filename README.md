@@ -1,20 +1,20 @@
 # Evergreen-Content-Classifier-for-german-Text
 
 #### What is this repository about?
-In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
+In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <a href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
 The Drive project has data from various regional publishers throughout Germany. 
 One of my tasks was to develop an API in which customers search their archives for Evergreen articles. In addition, authors want to check how much evergreen character their written text contains.
 
 ##### What are Evergreens articles and why is it relevant?
 
-Evergreen content is content that remains relevant regardless of the season or the time-frame (<href="https://www.brainlabsdigital.com/blog/what-is-evergreen-content/#:~:text=Evergreen%20content%20definition,that%20never%20lose%20their%20leaves.">click here for more</a>). Thus, publishers can always use these articles without creating new ones. 
+Evergreen content is content that remains relevant regardless of the season or the time-frame (<a href="https://www.brainlabsdigital.com/blog/what-is-evergreen-content/#:~:text=Evergreen%20content%20definition,that%20never%20lose%20their%20leaves.">click here for more</a>). Thus, publishers can always use these articles without creating new ones. 
 
 The challenge here is that such a project does not yet exist for German texts (it is also poorly documented for English texts). 
 Therefore, this repository goes into detail about the approach. 
 
 ## CONSIDER!
 The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
-by <href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
+by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
 
 #######____
 #### How to install DGL 0.5.3
