@@ -1,7 +1,7 @@
 # Evergreen-Content-Classifier-for-german-Text
 
 #### What is this repository about?
-In my time at <href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
+In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
 The Drive project has data from various regional publishers throughout Germany. 
 One of my tasks was to develop an API in which customers search their archives for Evergreen articles. In addition, authors want to check how much evergreen character their written text contains.
 
