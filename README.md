@@ -16,10 +16,8 @@ Therefore, this repository goes into detail about the approach.
 The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
 by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
 
-#######____
-#### How to install DGL 0.5.3
-You need the 0.5.X version of DGL. Otherwise it can cause an error. 
-Simply do:
+#### Approach for the Classifier
+After the EDA (see x>y>z)
 
 <code>$ conda install -c dglteam "dgl<0.5.3" </code>
   
