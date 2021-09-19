@@ -35,6 +35,7 @@ by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be
 
 ## Citing
 
+Cite the authors the BERT Model.
 ``` 
 @misc{devlin2019bert,
       title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
@@ -46,6 +47,7 @@ by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be
 }
 ```
 
+Please cite me if you use this work.
 ```
 @misc{momenzada_schickler_2021, 
       title={Evergreen recognition for German text}, 
