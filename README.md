@@ -8,7 +8,7 @@ In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to
 The Drive project has data from various regional publishers throughout Germany. 
 One of my tasks was to develop an API in which customers search their archives for Evergreen articles. In addition, authors want to check how much evergreen character their written text contains.
 
-##### What are Evergreens articles and why is it relevant?
+##### What are Evergreens articles and why is a solution relevant?
 
 Evergreen content is content that remains relevant regardless of the season or the time-frame (<a href="https://www.brainlabsdigital.com/blog/what-is-evergreen-content/#:~:text=Evergreen%20content%20definition,that%20never%20lose%20their%20leaves.">click here for more</a>). Thus, publishers can always use these articles without creating new ones. 
 
