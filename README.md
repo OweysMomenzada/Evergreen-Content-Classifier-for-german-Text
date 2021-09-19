@@ -29,7 +29,7 @@ A Real World Application on a Dataset can be seen (... Interface/test.ipynb)
 
 We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see .../API/main.py). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
-<img src="./EDA/images/workflow.png">
+![Workflow](/EDA/images/workflow.png)
 
 ## CONSIDER!
 The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
