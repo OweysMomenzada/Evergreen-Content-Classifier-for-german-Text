@@ -29,7 +29,19 @@ A Real World Application on a Dataset can be seen (... Interface/test.ipynb)
 
 We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see .../API/main.py). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
-
 ## CONSIDER!
 The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
-by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
+by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon.
+
+## Citing
+
+<cite> 
+@misc{devlin2019bert,
+      title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
+      author={Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova},
+      year={2019},
+      eprint={1810.04805},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+</cite> 
