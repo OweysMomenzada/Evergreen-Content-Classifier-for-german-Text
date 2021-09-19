@@ -1,4 +1,4 @@
-# Evergreen-Content-Classifier-for-german-Text
+# Evergreen recognition for German text
 
 #### What is this repository about?
 In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <a href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
