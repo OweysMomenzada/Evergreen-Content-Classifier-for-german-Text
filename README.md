@@ -18,11 +18,14 @@ Therefore, this repository goes into detail about the technical approach.
 After the EDA (siehe ....), we could see that Evergreen articles behave differently in time than other articles. Evergreen articles have been more consistent in their views over time than other articles. Other articles have a high number of views in the first days and then drop significantly in the following days. So you can classify Evergreen articles according to their behavior based on time. The problem is that, according to our results, the classification only can be reliable after 80 days of observation (see....). 
 
 ### Time-based classification
-Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: <a href="https://arxiv.org/abs/1810.04805">BERT</a>. The advantage here is that a classification can be performed immediately. We could get a accuracy of over 80%. 
+Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: <a href="https://arxiv.org/abs/1810.04805">BERT</a>. The advantage here is that a classification can be performed immediately. We could get a accuracy of over 80% (see.....). 
 
 
+## Real world Application, API & Deployment
 
+A Real World Application on a Dataset can be seen (... Interface/test.ipynb)
 
+We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see .../API/main.py). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
 
 
