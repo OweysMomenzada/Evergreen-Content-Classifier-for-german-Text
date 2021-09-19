@@ -12,19 +12,40 @@ Evergreen content is content that remains relevant regardless of the season or t
 The challenge here is that such a project does not yet exist for German texts (it is also poorly documented for English texts). 
 Therefore, this repository goes into detail about the technical approach. 
 
-## CONSIDER!
-The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
-by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
-
 ## Approach for the Classifier
 
 ### Time-based classification
 After the EDA (siehe ....), we could see that Evergreen articles behave differently in time than other articles. Evergreen articles have been more consistent in their views over time than other articles. Other articles have a high number of views in the first days and then drop significantly in the following days. So you can classify Evergreen articles according to their behavior based on time. The problem is that, according to our results, the classification only can be reliable after 80 days of observation (see....). 
 
 ### Time-based classification
-Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: BERT <a href="https://arxiv.org/abs/1810.04805">BERT</a>
+Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: <a href="https://arxiv.org/abs/1810.04805">BERT</a>. The advantage here is that a classification can be performed immediately. We could get a accuracy of over 80%. 
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+## CONSIDER!
+The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
+by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon. 
+
+
+
+
+
+
+
+
+
+
 ## Experiments
 We apply the approach on Benchmark dataset, thus we can only focus on the technical implementation and use it for comparison.  <br>
 NOTE: I suggest to work on GPU for example on Google Colab (free GPU usage) to get the highest possible performance.
