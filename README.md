@@ -34,7 +34,7 @@ We provide this for SCHICKLERS Customers based on an API. We first deploy the tr
 
 ## CONSIDER!
 The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
-by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon.
+by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon Dataset.
 
 ## Citing
 
