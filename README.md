@@ -18,17 +18,17 @@ Therefore, this repository goes into detail about the technical approach.
 ## Approach for the Classifier
 
 ### Time-based classification
-After the EDA (siehe ....), we could see that Evergreen articles behave differently in time than other articles. Evergreen articles have been more consistent in their views over time than other articles. Other articles have a high number of views in the first days and then drop significantly in the following days. So you can classify Evergreen articles according to their behavior based on time. The problem is that, according to our results, the classification only can be reliable after 80 days of observation (see <i>/EDA/Timebased Clf.ipynb</i>). 
+After the EDA (<i>EDA/Evergreen EDA.ipynb</i>), we could see that Evergreen articles behave differently in time than other articles. Evergreen articles have been more consistent in their views over time than other articles. Other articles have a high number of views in the first days and then drop significantly in the following days. So you can classify Evergreen articles according to their behavior based on time. The problem is that, according to our results, the classification only can be reliable after 80 days of observation (see <i>"/EDA/Timebased Clf.ipynb"</i>). 
 
 ### Time-based classification
-Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: <a href="https://arxiv.org/abs/1810.04805">BERT</a>. The advantage here is that a classification can be performed immediately. We could get a accuracy of over 80% (see.....). 
+Therefore, we classify articles based on their content or text corpus. For the classification we will use the State-of-Art Model: <a href="https://arxiv.org/abs/1810.04805">BERT</a>. The advantage here is that a classification can be performed immediately. We could get a accuracy of over 80% (see <i>"model/Model training.ipynb"</i>). 
 
 
 ## Real world Application, API & Deployment
 
-A Real World Application on a Dataset can be seen (... Interface/test.ipynb)
+A Real World Application on some articles can be seen  here "<i>Results and Examples.ipynb</i>"
 
-We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see .../API/main.py). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
+We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see <i>"Application - API/main.py"</i>). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
 ![Workflow](https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text/blob/main/EDA/images/Workflow.png)
 
