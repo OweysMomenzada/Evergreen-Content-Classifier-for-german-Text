@@ -1,0 +1,26 @@
+<h1>Evergreen Classifier API</h1>
+<p><em>Author</em>: Oweys Momenzada</p>
+<p><em>Date of deployment</em>: 14.09.2021</p>
+<p>&nbsp;</p>
+<h3>Attribute:</h3>
+<ul>
+<li><em>{"label" : "Evergreen" , "Ephemeral", "Uncertain" }&nbsp;</em> - Input enth&auml;lt &uuml;berwiegend Evergreen-, Ephemeralcontent oder der Classifier ist sich nicht sicher (Uncertain).</li>
+<li><em>{"evergreen_probability": Float}</em> - Wahrscheinlichkeit (in %), dass der Input Evergreen ist.</li>
+<li>
+<div>
+<div><em>{"is_truncated": Bool} -&nbsp;</em>Wurde der Text gek&uuml;rzt? Maximal L&auml;nge eines Textes sind 512 W&ouml;rter.</div>
+</div>
+</li>
+</ul>
+<p>&nbsp;</p>
+<h3><strong>Code zum kopieren</strong>:</h3>
+<p>import urllib, json<br />import urllib.request as urllib2<br />import codecs</p>
+<p>&nbsp;</p>
+<p>def make_url_clean(url):<br />&nbsp; &nbsp; word = codecs.encode(url,'utf-8')<br />&nbsp; &nbsp; url_Word = urllib2.quote(url)<br /><br />&nbsp; &nbsp; return url_Word</p>
+<p>&nbsp;</p>
+<p>def predict_evergreen(text):<br />&nbsp; &nbsp; url_clean = make_url_clean(text)<br />&nbsp; &nbsp; url = "http://127.0.0.1:9000/" + url_clean<br />&nbsp; &nbsp; response = urllib.request.urlopen(url)<br />&nbsp; &nbsp; data = json.loads(response.read())<br /><br />&nbsp; &nbsp; return data</p>
+<p>&nbsp;</p>
+<p>results = predict_evergreen("Es hagelt!")</p>
+<p>print(results)</p>
+<p>&gt;&gt;&gt;&gt; {'evergreen_probability': 0.1973, 'is_truncated': False, 'label': 'Ephemeral'}</p>
+<p>&nbsp;</p>
