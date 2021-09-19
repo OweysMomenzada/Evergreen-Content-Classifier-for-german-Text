@@ -1,6 +1,7 @@
-# Evergreen recognition for German text
+<big><b> Author: Oweys Momenzada </big></b>
 
- <big><i> FOR DEEPER INSIGHT INTO THE WORK AND APPROACH, THE "PAPER_EVERGREEN_RECOGNIZER.PDF" IS PROVIDED ON THIS GITHUB REPOSITORY. </i></big>
+# Evergreen recognition for German text
+<big><i> FOR DEEPER INSIGHT INTO THE WORK AND APPROACH, THE "PAPER_EVERGREEN_RECOGNIZER.PDF" IS PROVIDED ON THIS GITHUB REPOSITORY. </i></big>
 
 #### What is this repository about?
 In my time at <a href="https://www.schickler.de/">SCHICKLER</a> I was allowed to work on the award-winning <a href="https://www.presseportal.de/pm/8218/4932175">DRIVE</a>-Project.
