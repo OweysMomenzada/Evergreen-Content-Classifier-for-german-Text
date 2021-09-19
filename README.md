@@ -35,7 +35,7 @@ by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be
 
 ## Citing
 
-<cite> 
+``` 
 @misc{devlin2019bert,
       title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
       author={Jacob Devlin and Ming-Wei Chang and Kenton Lee and Kristina Toutanova},
@@ -44,4 +44,15 @@ by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-</cite> 
+```
+
+```
+@misc{momenzada_schickler_2021, 
+      title={Evergreen recognition for German text}, 
+      author={Momenzada, Oweys and SCHICKLER}, 
+      url={https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text}, 
+      journal={Github}, 
+      year={2021}, 
+      month={Sep}
+      } 
+```
