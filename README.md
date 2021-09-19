@@ -38,7 +38,7 @@ by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be
 
 ## Citing
 
-Cite the authors the BERT Model.
+Cite the authors the of BERT Model.
 ``` 
 @misc{devlin2019bert,
       title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
