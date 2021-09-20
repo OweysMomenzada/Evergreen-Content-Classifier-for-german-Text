@@ -50,7 +50,7 @@ Cite the authors the of BERT Model.
 }
 ```
 
-Please cite me if you use this work.
+Please cite this GitHub if you use this work.
 ```
 @misc{momenzada_schickler_2021, 
       title={Evergreen recognition for German text}, 
