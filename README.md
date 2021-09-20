@@ -1,6 +1,6 @@
 <big><b> Author: Oweys Momenzada </big></b>
 
-# Evergreen recognition for German text
+# Evergreen Classifier for German text corpus
 <big><i> FOR DEEPER INSIGHT INTO THE WORK AND APPROACH, THE "PAPER_EVERGREEN_RECOGNIZER.PDF" IS PROVIDED ON THIS GITHUB REPOSITORY. </i></big>
 
 #### What is this repository about?
