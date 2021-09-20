@@ -27,7 +27,7 @@ As mentioned, the data is manually labeled. Only the text and the article-ID wer
 | 55312 | Experte gibt Tipps für...  | Publisher 1  | 00:00:00 UTC | 00:00:20 UTC | Kultur | Tipps | Evergreen |
 | 55442  | Zwei Schwerverletzte bei Unfall... | Publisher 3 | 03:00:10 UTC | 03:00:50 UTC | Gesellschaft | Nachrichten |  Ephemeral | 
 
-Initially, a distinction was made between Evergreen-Seasonal, Evergreen-Forever, Evergeen-Event and Ephemeral.  However, after EDA (see /EDA/Evergreen EDA.ipynb), a too large disbalance of the data was noticed, which would have had an high impact on the accuracy of the model. Therefore, we only distinguish between Evergreens and Ephemeral or Non-Evergreens.
+Initially, a distinction was made between Evergreen-Seasonal, Evergreen-Forever, Evergeen-Event and Ephemeral.  However, after EDA (see <i>"/EDA/Evergreen EDA.ipynb"</i>), a too large disbalance of the data was noticed, which would have had an high impact on the accuracy of the model. Therefore, we only distinguish between Evergreens and Ephemeral or Non-Evergreens.
 
 ## Approach for the Classifier
 
