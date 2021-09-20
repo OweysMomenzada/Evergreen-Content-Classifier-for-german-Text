@@ -15,6 +15,20 @@ Evergreen content is content that remains relevant regardless of the season or t
 The challenge here is that such a project does not yet exist for German texts (it is also poorly documented for English texts). 
 Therefore, this repository goes into detail about the technical approach. 
 
+## Data
+The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
+by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon Dataset.
+
+As mentioned, the data is manually labeled. Only the text and the article-ID were used as data set. For EDA purposes, further data, such as genre, publisher, accesses, etc., were taken from Google BigQuery. A labeled article could look as follows:
+
+
+| ID | Text | Publisher  | pageview_start |  pageview_end  | genre | topic | label |
+| ------------- | ------------- |------------- | ------------- |------------- | ------------- | ------------- | ------------- | 
+| 55312 | Experte gibt Tipps für...  | Publisher 1  | 00:00:00 UTC | 00:00:20 UTC | Kultur | Tipps | Evergreen |
+| 55442  | Zwei Schwerverletzte bei Unfall... | Publisher 3 | 03:00:10 UTC | 03:00:50 UTC | Gesellschaft | Nachrichten |  Ephemeral | 
+
+Initially, a distinction was made between Evergreen-Seasonal, Evergreen-Forever, Evergeen-Event and Ephemeral.  However, after EDA (see /EDA/Evergreen EDA.ipynb), a too large disbalance of the data was noticed, which would have had an high impact on the accuracy of the model. Therefore, we only distinguish between Evergreens and Ephemeral or Non-Evergreens.
+
 ## Approach for the Classifier
 
 ### Time-based classification
@@ -32,9 +46,6 @@ We provide this for SCHICKLERS Customers based on an API. We first deploy the tr
 
 ![Workflow](https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text/blob/main/EDA/images/Workflow.png)
 
-## CONSIDER!
-The Dataset has been labeled manually by the publishers. Therefore, I can not provide a dataset to work on. However, there is a dataset for english evergreens
-by <a href="https://www.kaggle.com/c/stumbleupon">StumbleUpon</a>. You should be able to apply my approach to the StumbleUpon Dataset.
 
 ## Citing
 
