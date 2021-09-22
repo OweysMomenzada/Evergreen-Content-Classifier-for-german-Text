@@ -44,7 +44,7 @@ A Real World Application on some articles can be seen  here "<i>Results and Exam
 
 We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see <i>"Application - API/main.py"</i>). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
-![Workflow](https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text/blob/main/EDA/images/Workflow.png)
+![Workflow](https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text/blob/main/EDA/images/Worfklow.png)
 
 
 ## Citing
