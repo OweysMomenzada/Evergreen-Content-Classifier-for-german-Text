@@ -42,7 +42,7 @@ Therefore, we classify articles based on their content or text corpus. For the c
 
 A Real World Application on some articles can be seen  here "<i>Results and Examples.ipynb</i>"
 
-We provide this for SCHICKLERS Customers based on an API. We first deploy the trained model on GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see <i>"Application - API/main.py"</i>). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
+We provide this for SCHICKLERS Customers based on an API. We first store the trained model into a Bucket in Google Cloud Storage and than load it into GCP AI Platform. We then implement Textcleaning and other Feature Engineering steps and also the communcation with the trained model on AI platform on a different .py-file (see <i>"Application - API/main.py"</i>). In addition, we use FLASK for our RESTful API. We then finally deploy our API on APP Engine to provide for our customers online. 
 
 &nbsp;
 
