@@ -65,7 +65,7 @@ Cite the authors the of BERT Model.
 
 Please cite this GitHub if you use this work.
 ```
-@misc{momenzada_schickler_2021, 
+@misc{momenzada_schickler_2021_evergreen, 
       title={Evergreen recognition for German text}, 
       author={Momenzada, Oweys and SCHICKLER}, 
       url={https://github.com/OweysMomenzada/Evergreen-Content-Classifier-for-german-Text}, 
