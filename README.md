@@ -51,7 +51,7 @@ This will be provided for SCHICKLERS customers based on an API. We first store t
 
 ## Citing
 
-Cite the authors the of BERT Model.
+Cite the authors of the BERT Model.
 ``` 
 @misc{devlin2019bert,
       title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding}, 
